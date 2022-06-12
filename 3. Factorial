@@ -1,0 +1,17 @@
+package classesandobjects;
+import java.util.Scanner;
+public class factorial {
+	    public static void main(String []args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter number");
+		int num=sc.nextInt();
+		int fact=1;
+		if(num==1||num==0)
+			System.out.print("the factorial of " +num+ " is 1.");
+		for(int i=num; i>=1; i--) {
+			fact=fact*i;
+		}
+			System.out.print("the factorial is " +fact);
+		
+		}
+}
