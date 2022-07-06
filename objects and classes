@@ -1,0 +1,46 @@
+/* classes and object with this keyword
+class pen{
+    String color;
+    String type;
+    public void write(){
+        System.out.println(this.color+" pen writes something");
+    }
+    public void showColor(){
+        System.out.println(this.color);
+    }
+    public void showType(){
+        System.out.println(this.type);
+    }
+}
+class Students{
+    String name;
+    int age;
+    public void info(){
+        System.out.println(this.name);
+        System.out.println(this.age);
+    }
+
+}
+public class oops {
+    public static void main(String[] args)
+    {
+
+        pen p1=new pen();
+        pen p2=new pen();
+        p1.color="blue";
+        p1.type="gel";
+        p2.color="red";
+        p2.type="ball pen";
+        p1.write();
+        p1.showColor();
+        p1.showType();
+        p2.write();
+        p2.showColor();
+        p2.showType();
+        Students s1=new Students();
+        s1.name="Aman";
+        s1.age=40;
+        s1.info();
+    }
+}*/
+
