@@ -1,0 +1,18 @@
+class Calculator{
+    public int add(int i, int j){
+        return i+j;
+    }
+}
+class Calcadv extends Calculator{
+    public int sub(int i, int j){
+        return i-j;
+    }
+}
+public class Inheritance {
+    public static void main(String[] args){
+        Calcadv c1=new Calcadv();
+        int result= c1.add(5,4);
+        int result2=c1.sub(6, 5);
+        System.out.println("Result is: "+result+" and " +result2);
+    }
+}
